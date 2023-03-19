@@ -1,6 +1,6 @@
 import React from "react";
 
-function MenuCard({ menuItem }) {
+function MenuCard({ menuItem }: any) {
   return (
     <div className="w-full lg:w-4/12 lg:pr-20 pb-20 lg:pb-10 mb-10">
       <div className="w-full">
