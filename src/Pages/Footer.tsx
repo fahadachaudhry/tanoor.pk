@@ -16,7 +16,7 @@ function Footer() {
         }}
       ></div>
       <div className="container mx-auto px-4 py-20 flex items-start justify-between flex-wrap lg:flex-nowrap">
-        <div className="w-full lg:w-3/12">
+        <div className="w-full pb-10 lg:w-3/12">
           <p className="text-sm text-zinc-400">Copyright ©Tanoor 2023</p>
           <p className="text-sm text-zinc-400 mb-4">All rights reserved</p>
           <div className="inline-block">
