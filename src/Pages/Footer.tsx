@@ -1,18 +1,16 @@
 import React from "react";
 import Logo from "../components/Logo";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import { BsTwitter } from "react-icons/bs";
-import { BiSearchAlt2 } from "react-icons/bi";
-import kneed from "../assets/hero/kneed2.avif";
+import footer from "../assets/footer.jpg";
 
 function Footer() {
   return (
-    <div className="bg-white">
+    <div className="bg-zinc-900 text-white font-sans">
       <div
-        className="bg-cover bg-center bg-no-repeat"
+        className="bg-cover bg-top bg-no-repeat"
         style={{
           height: "600px",
-          backgroundImage: `url(${kneed})`,
+          backgroundImage: `url(${footer})`,
         }}
       ></div>
       <div className="container mx-auto px-4 py-20 flex items-start justify-between flex-wrap lg:flex-nowrap">

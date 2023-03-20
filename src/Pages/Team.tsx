@@ -8,7 +8,7 @@ function Team() {
         <div className="w-full lg:w-2/3 text-white pr-0 lg:pr-20">
           <div className="relative">
             <p className="text-left text-9xl text-zinc-700">“</p>
-            <div>
+            <div className="mb-10">
               <p className="uppercase text-3xl lg:text-5xl text-white mb-10">
                 Tanoor is not just a{" "}
                 <span className="text-red-300">business</span>, it is my{" "}
@@ -23,7 +23,7 @@ function Team() {
               </p>
               <p className="text-xl text-white text-right">- Imran Zafar</p>
             </div>
-            <p className="text-right text-9xl text-zinc-700">“</p>
+            <p className="text-right text-9xl text-zinc-700">”</p>
           </div>
         </div>
         <div className="w-full lg:w-1/3">

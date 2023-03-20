@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+html,
+body {
+  font-family: PlayfairDisplay;
+}
+
 ::-webkit-scrollbar {
   width: 4px;
   height: 4px;

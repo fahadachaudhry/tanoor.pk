@@ -8,7 +8,7 @@ import Topnav from "./Pages/Topnav";
 
 function App() {
   return (
-    <div className="text-zinc-600 bg-zinc-100">
+    <div className="text-zinc-100 bg-zinc-900">
       <Topnav />
       <Hero />
       <About />
